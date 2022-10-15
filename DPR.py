@@ -45,6 +45,7 @@ print(matrix) '''
 #         secArr.append(initArr[i])
 # print(initArr,'\n', secArr, sep='')
 
+
 #6.	Дан список из n элементов. Вывести те элементы, у которых чётный (нечётный) индекс
 # limiter = int(input())
 # initList = [0] * limiter
