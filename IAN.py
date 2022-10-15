@@ -114,21 +114,21 @@ stack.in	stack.out
 #         # выбор плюса или минуса
 #         pM = choice(utilPM)
 #         if pM == '+':
-    #         prevEl = str(randint(0,99))
-    #         stackIn.append(pM + prevEl)
-    #     else:
-    #         # при последующем минусе
-    #         if prevPM == '-':
-    #             prevPM = utilPM[1]
-    #             pM = utilPM[1]
-    #             prevEl = str(randint(0,99))
-    #             stackIn.append(pM + prevEl)
-    #         else: 
-    #             stackIn.append(pM)
-    #             stackOut.append(prevEl)
-    #             prevPM = pM
-    # [print(i, end="\n") for i in stackIn],print('\n')
-    # [print(i, end="\n") for i in stackOut]
+#         prevEl = str(randint(0,99))
+#         stackIn.append(pM + prevEl)
+#     else:
+#         # при последующем минусе
+#         if prevPM == '-':
+#             prevPM = utilPM[1]
+#             pM = utilPM[1]
+#             prevEl = str(randint(0,99))
+#             stackIn.append(pM + prevEl)
+#         else: 
+#             stackIn.append(pM)
+#             stackOut.append(prevEl)
+#             prevPM = pM
+# [print(i, end="\n") for i in stackIn],print('\n')
+# [print(i, end="\n") for i in stackOut]
     
 # fourthTask()
 
